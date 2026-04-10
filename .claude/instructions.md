@@ -11,7 +11,7 @@
 Connection string (put in `.env.local`):
 
 ```
-REDIS_URL="REDACTED_REDIS_URL"
+REDIS_URL="<your-redis-connection-string>"
 ```
 
 - Use `ioredis` (not `redis` npm package) — singleton pattern with HMR guard
